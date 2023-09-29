@@ -21,3 +21,9 @@ ping google.com
 docker run -it --name ubu2 ubuntu bash   -  creamos contenedor
 con ifconfig vemos la ip de ubu2
 con el comando ping 172.17.0.3 hacemos ping de ubu1 a ubu2
+# 6. 
+Se cierra, pero no se borra el contenedor.
+# 7. + 8.
+docker stats para obtener la siguiente información:
+0e7f14a3d5d0   ubu2      0.00%     880KiB / 15.61GiB   0.01%     2.91kB / 0B   123kB / 0B    1
+b2b269696057   ubu1      0.00%     904KiB / 15.61GiB   0.01%     2.54kB / 0B   8.19kB / 0B   1
